@@ -1,4 +1,4 @@
-package IfElse;
+package ifelse;
 
 import java.lang.foreign.SymbolLookup;
 import java.util.Scanner;

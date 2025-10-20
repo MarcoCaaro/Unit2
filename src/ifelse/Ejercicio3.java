@@ -1,4 +1,4 @@
-package IfElse;
+package ifelse;
 
 public class Ejercicio3 {
 
