@@ -23,7 +23,7 @@ public static void main(String[] args) {
 	if(nota>=0 && nota<3) {
 		System.out.print("NOTA DEFICIENTE");
 	}
-	else if (nota>=3 && nota<5){ ;
+	else if (nota>=3 && nota<5){ 
 		}
 	//Establecemos el segundo condicional
 	if(mayor>num3) {
