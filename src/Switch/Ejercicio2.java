@@ -17,31 +17,33 @@ public static void main(String[] args) {
 	dia = sc.nextInt();
 	
 	switch (dia) {
-	//Para el valor
+	//Para el valor 1 imprimimos Lunes
 	case 1 -> {
-		System.out.print("Lunes");
+		System.out.print("Lunes.");
 	}
-	//Para el valor 5 imprimimos suficiente
+	//Para el valor 2 imprimimos Martes
 	case 2 -> {
-		System.out.print("Martes");
+		System.out.print("Martes.");
 	}
-	//Para el valor 6 imprimimos bien
+	//Para el valor 3 imprimimos Miercoles
 	case 3 -> {
-		System.out.print("Miercoles");
+		System.out.print("Miercoles.");
 	}
-	//Para los valores del 7 al 8 imprimimos notable
+	//Para el valor 4 imprimimos Jueves
 	case 4 -> {
-		System.out.print("Jueves");
+		System.out.print("Jueves.");
 	}
-	//Para los valores del 9 al 10 imprimimos sobresaliente
+	//Para el valor 5 imprimos viernes
 	case 5 -> {
-		System.out.print("Viernes");
+		System.out.print("Viernes.");
 	}
+	//Para el valor 6 imprimimos sabado
 	case 6 -> {
-		System.out.print("Sábado");
+		System.out.print("Sábado.");
 	}
+	//Para el valor 7 imprimimos domingo
 	case 7 -> {
-		System.out.print("Domingo");
+		System.out.print("Domingo.");
 	}
 	default -> System.out.print("Valor incorrecto.");
 }
