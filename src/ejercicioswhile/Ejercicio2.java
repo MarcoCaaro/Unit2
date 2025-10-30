@@ -2,14 +2,14 @@ package ejercicioswhile;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio2 {
 public static void main(String[] args) {
 	
 	//Inicializamos el scanner
 	Scanner sc = new Scanner(System.in);
 	
 	//Declaramos la variable suma y le damos valor
-	int suma = 0;
+	int cantidad = 0;
 	int numero;
 	
 	//Imprimimos la primera peticion
@@ -21,11 +21,11 @@ public static void main(String[] args) {
 
 	
 	while (numero >= 0) {
-		suma += numero;
+		cantidad += 1;
 		System.out.println("Perfecto, introduzca otro numero: ");
 		numero = sc.nextInt();
 	if (numero<0) {
-		System.out.println("Fin, la suma de los numeros introducidos es: " + suma);
+		System.out.println("Fin, el numero de numeros enteros positivos introducidos es de: " + cantidad);
 	}
 	}
 	sc.close();
